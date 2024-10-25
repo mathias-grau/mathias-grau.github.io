@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - mathias-grau
+  - mnielLab
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - mathias-grau/pyspecies
+  - mathias-grau/pyspeciesstochastic
+  - mathias-grau/kaggle_discourse_graph
+  - mathias-grau/MAP565 
+  - mathias-grau/protein_cleavage
