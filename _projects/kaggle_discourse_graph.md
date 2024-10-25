@@ -1,25 +1,29 @@
 ---
 layout: page
 title: Discourse Graph Analysis
-description: A Kaggle Project 
+description: A Kaggle Project of INF554 Machine Learning and Deep Learning course at Ecole Polytechnique
 img: assets/img/betbot/robottennis.png
 importance: 1
 category: fun
 giscus_comments: true
 ---
 
-## Betbot on tennis matches data
-
-As tennis is my passion for a long time now, I have created a betbot that is able to fetch data from websites and compute complex Deep Learning algorithms to predict the winner of future matches.
-Betbot for tennis match predictions based on `FlashResultat` statistics and `ATPtour` statistics.
+## Project Summary: Extractive Summarization with Discourse Graphs
 
 ### Description
+This project, led by Samuel Gaudin, Alexandre Ver Hulst and I at École Polytechnique part of INF554 course, focuses on identifying key messages in business dialogues using machine learning. By analyzing 137 labeled business dialogues, we explored various features—such as message size, speaker type, sentence embeddings, and sentiment scores—to determine message importance.
 
-This betbot is a tool designed to predict outcomes of tennis matches by analyzing data from FlashResultat and ATP statistics. The model leverages historical match data to provide insights and forecasts for future matches.
+### Approach and Models
+We implemented a range of machine learning and deep learning models, including logistic regression, support vector machines (SVM), XGBoost, and advanced neural networks. Graph Neural Networks (GNN) and LSTM-based models were particularly effective, with LSTM proving best at capturing dialogue nuances.
 
-### Features
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/kaggle_discourse_graph/most_important_features.png" title="IS note" class="img-fluid rounded z-depth-1" style="width: 50%;" %}
+    </div>
+</div>
+<div class="caption">
+    Top most important features from the baseline model.
+</div>
 
-- Fetches real-time match data from `FlashResultat`.
-- Analyzes ATP player statistics.
-- Provides predictions based on historical and current data.
-- User-friendly command-line interface for easy interaction.
+### Results
+The LSTM neural network model demonstrated superior performance in understanding professional dialogue, thanks to its ability to process sequential text.
