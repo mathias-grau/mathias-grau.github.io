@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>.
 
 profile:
   align: right
-  image: prof_pic_m.jpg
+pg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>M2 MVA / Ecole Polytechnique</p>
