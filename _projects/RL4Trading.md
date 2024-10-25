@@ -3,9 +3,8 @@ layout: page
 title: Extractive Summarization with Discourse Graphs
 description: A Kaggle Project of INF554 Machine Learning and Deep Learning course at Ecole Polytechnique
 img: assets/img/kaggle_discourse_graph/graph.png
-importance: 1
+importance: 2
 category: work
-giscus_comments: true
 ---
 
 ### Description

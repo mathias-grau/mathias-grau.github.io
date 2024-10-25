@@ -5,7 +5,6 @@ description: MODAL, Random numerical simulation (SNA) of rare events
 img: assets/img/modal/premierleague.png
 importance: 3
 category: work
-giscus_comments: true
 ---
 This project was conducted under the supervision of Professor [Gersende Fort](https://scholar.google.com/citations?user=NUoSZ24AAAAJ&hl=fr) from Polytechnique.
 

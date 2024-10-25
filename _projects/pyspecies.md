@@ -5,7 +5,6 @@ description: PSC (Collective Scientific Project) at Ecole Polytechnique
 img: assets/img/pyspecies/pyspecies.png
 importance: 1
 category: work
-giscus_comments: true
 ---
 
 This project was conducted under the supervision of [Vincent Bansaye](http://www.cmap.polytechnique.fr/~bansaye/) and [Maxime Breden](https://scholar.google.com/citations?user=2T2IU_sAAAAJ&hl=fr) from Polytechnique's [CMAP](https://cmap.ip-paris.fr/).

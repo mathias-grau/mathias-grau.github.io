@@ -5,7 +5,6 @@ description: A Kaggle Project of INF554 Machine Learning and Deep Learning cours
 img: assets/img/kaggle_discourse_graph/graph.png
 importance: 1
 category: work
-giscus_comments: true
 ---
 
 ### Description
