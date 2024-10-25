@@ -1,38 +1,50 @@
 ---
 layout: page
-title: Extractive Summarization with Discourse Graphs
-description: A Kaggle Project of INF554 Machine Learning and Deep Learning course at Ecole Polytechnique
-img: assets/img/kaggle_discourse_graph/graph.png
+title: Reinforcement Learning on financial data
+description: A Project of INF581 Advanced Machine Learning and Autonomous Agents course at Ecole Polytechnique
+img: assets/img/RL4Trading/trading.png
 importance: 2
 category: work
 ---
 
-### Description
-This project, led by Samuel Gaudin, Alexandre Ver Hulst and I at École Polytechnique part of INF554 course, focuses on identifying key messages in business dialogues using machine learning. By analyzing 137 labeled business dialogues, we explored various features—such as message size, speaker type, sentence embeddings, and sentiment scores—to determine message importance.
+In this project, we implemented a Reinforcement Learning algorithm for financial data analysis.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/kaggle_discourse_graph/description.png" title="IS note" class="img-fluid rounded z-depth-1" style="width: 50%;" %}
-    </div>
-</div>
-<div class="caption">
-    Description of the project.
-</div>
+Acces to report : 
+- [Report](https://drive.google.com/file/d/1mU4c1jeIt4Psimh49YUeQnJWM70Czpcg/view?usp=sharing)
 
-### Approach and Models
-We implemented a range of machine learning and deep learning models, including logistic regression, support vector machines (SVM), XGBoost, and advanced neural networks. Graph Neural Networks (GNN) and LSTM-based models were particularly effective, with LSTM proving best at capturing dialogue nuances.
+## Data Structure
+
+* We sourced our data from Yahoo Finance via their API, specifically focusing on the closing prices for our modeling purposes.
+
+## Model Architecture
+
+### Environment
+
+* Our environment:
+  - A dataframe containing stock price data,
+  - A specified time range for action consideration,
+  - A balance representing investable funds,
+  - A record of the number of shares held at each time step.
+
+### Actions
+
+* Our action space encompassed three distinct types:
+  1. Buying a certain proportion of stocks based on the model's confidence in a buy strategy.
+  2. Selling a certain proportion of stocks based on the model's confidence in a sell strategy.
+  3. Taking no action.
+
+### Deep Q-Network (DQN)
+
+* Our DQN architecture was a blend of various layers, notably incorporating LSTM due to the sequential nature of trading data. Additionally, it considered other relevant factors such as the number of stocks held and the current account balance.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/kaggle_discourse_graph/graph.png" title="pyspecies stochastic" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
+        {% include figure.liquid path="assets/img/RL4Trading/model1.png" title="LSTM" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/kaggle_discourse_graph/model.png" title="pyspecies stochastic 2" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
+        {% include figure.liquid path="assets/img/RL4Trading/model1.png" title="Transformer" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
     </div>
 </div>
 <div class="caption">
-    Graph of a conversation and final model
+    Two models using combination of RNN and Transformers to predict the next price value.
 </div>
-
-### Results
-The LSTM neural network model demonstrated superior performance in understanding professional dialogue, thanks to its ability to process sequential text.
