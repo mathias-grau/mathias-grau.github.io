@@ -29,9 +29,31 @@ Our model uses the Bradley-Terry framework, a popular approach for modeling comp
 
 Our first step was to implement a Monte Carlo simulation with 100,000 tournaments to estimate the win probability for each team. Comparing our results with bookmakers' predictions, we found that while our model reasonably matched bookmaker estimates for top teams, it struggled to accurately reflect outcomes for weaker teams, such as Leicester. Here, the Monte Carlo method alone was inadequate for capturing these rare event probabilities.
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/modal/bookmakersOK.png" title="MC" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/modal/rarenul.png" title="MC focus" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
+    </div>
+</div>
+<div class="caption">
+    Simplistic estimation of winning probabilities using monte carlo methods.
+</div>
+
 # Preferential Sampling
 
 To address the limitations of the Monte Carlo method for low-probability events, we implemented importance sampling. By adjusting the intrinsic values within the model to make a Leicester win more likely, we reduced the computational effort by a factor of 100, achieving an error margin of around 3% with far fewer simulations. We found that setting Leicester's strength near Chelsea’s (the top team) yielded the most stable error estimates, confirming that higher values improved our simulation's accuracy.
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/modal/noteopti.png" title="IS note" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Important sampling allowing to deduce that the optimal note is between 75 and 85.
+</div>
 
 # Splitting Method
 
@@ -43,6 +65,25 @@ Our assumptions included treating teams as equal winners if they had identical s
 
     Tie-breaking Rules: When selecting a winner from tied teams, weaker teams like Leicester were further disadvantaged if we broke ties in favor of the highest-rated team.
     Impact of Repeated Matches: Increasing the number of encounters between teams resulted in a higher likelihood that the best-rated team (Chelsea) would win, due to a cumulative advantage over repeated games.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/modal/winmodes.png" title="IS note" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Importance of the way winners are chosen 
+</div>
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/modal/IinfluenceAR.png" title="IS note" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The probability of Chealsea (the highest-rated team in the league) winning the league, as the number of matches increases.
+</div>
 
 # Towards a Realistic Model
 
