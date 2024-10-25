@@ -5,7 +5,7 @@ repo_description_lines_max: 2
 
 github_repos:
   - mathias-grau/pyspecies
-  - mathais-grau/RL4Trading
+  - mathias-grau/RL4Trading
   - mathias-grau/kaggle_discourse_graph
   - mathias-grau/MAP565 
   - mathias-grau/betbot_tennis
