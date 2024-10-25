@@ -2,7 +2,7 @@
 layout: page
 title: Cross-diffusion in population dynamics
 description: PSC (Collective Scientific Project) at Ecole Polytechnique
-img: assets/img/pyspecies/pyspecies.gif
+img: assets/img/pyspecies/pyspecies.png
 importance: 1
 category: work
 giscus_comments: true
