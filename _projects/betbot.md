@@ -2,7 +2,7 @@
 layout: page
 title: BetBot for tennis match predictions
 description: A pipeline to make prediction on tennis match results using ML and DL
-img: assets/img/modal/premierleague.png
+img: assets/img/betbot/robottennis.png
 importance: 1
 category: fun
 related_publications: true
