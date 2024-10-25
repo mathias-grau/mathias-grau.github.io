@@ -2,13 +2,13 @@
 layout: page
 title: Cross-diffusion in population dynamics
 description: with background image
-img: assets/img/pyspecies.gif
+img: assets/img/pyspecies/pyspecies.gif
 importance: 1
 category: work
 related_publications: true
 ---
 
-This project was conducted under the supervision of Vincent Bansaye and Maxime Breden (CMAP).
+This project was conducted under the supervision of [Vincent Bansaye](http://www.cmap.polytechnique.fr/~bansaye/) and [Maxime Breden](https://scholar.google.com/citations?user=2T2IU_sAAAAJ&hl=fr) from Polytechnique's [CMAP](https://cmap.ip-paris.fr/).
 
 In population dynamics, cross-diffusion reveals local interactions that lead to spatial segregation between two species. To describe these repulsive effects, we first develop a probabilistic model that also considers birth and death events, simulated using the Gillespie algorithm. This approach naturally leads, in the limit, to a deterministic behavior described by a system of partial differential equations. Due to the presence of a nonlinear cross-diffusion term in the initial system, solving it numerically is challenging, especially over long time periods.
 
@@ -22,6 +22,17 @@ In this section, we simulate this deterministic evolution using a probabilistic 
 
 Each individual remains at a site for a random period, determined by an exponential distribution with an average inversely proportional to the number of individuals at that site. If an individual moves, the destination site is chosen uniformly from adjacent sites. The model then evolves after the reaction time of the individual that reacts first, resetting the reaction times for all other individuals according to the new distribution. This initial reaction time can thus be regarded as the general jump time of the given distribution.
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/pyspecies/pyspeciessto1.png" title="pyspecies stochastic" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/pyspecies/pyspeciessto1.png" title="pyspecies stochastic 2" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Evolution of the cross diffusion using the stochastic approach.
+</div>
 
 ## Deterministic implementation
 
@@ -55,7 +66,7 @@ It can be shown, under certain conditions, that the semi-continuous model is the
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/pyspecies.gif" title="gif pyspecies" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/pyspecies/pyspecies.gif" title="gif pyspecies" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
