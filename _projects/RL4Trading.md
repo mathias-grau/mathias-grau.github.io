@@ -54,7 +54,7 @@ Acces to report :
         {% include figure.liquid path="assets/img/RL4Trading/model1.png" title="LSTM" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/RL4Trading/model1.png" title="Transformer" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
+        {% include figure.liquid path="assets/img/RL4Trading/model2.png" title="Transformer" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
     </div>
 </div>
 <div class="caption">
@@ -65,7 +65,7 @@ Acces to report :
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/RL4Trading/triangle.png" title="triangle" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
+        {% include figure.liquid path="assets/img/RL4Trading/triangles.png" title="triangle" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/RL4Trading/wealth.png" title="wealth" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
