@@ -52,10 +52,7 @@
     {
       "name": "DTU, Department of Health Technology",
       "location": "Copenhagen, Denmark",
-      "organization": {
-        "name": "DTU",
-        "url": "https://orbit.dtu.dk/en/organisations/immunoinformatics-and-machine-learning"
-      },
+      "url": "https://orbit.dtu.dk/en/organisations/immunoinformatics-and-machine-learning",
       "position": "Research Intern, Immunoinformatics and Machine Learning group",
       "startDate": "2024-04-01",
       "endDate": "2024-09-01",
@@ -72,6 +69,7 @@
     {
       "name": "AQEMIA",
       "location": "Paris, France",
+      "url": "https://www.aqemia.com/",
       "position": "Data Scientist Intern, Target Ranking team",
       "startDate": "2023-06-01",
       "endDate": "2023-09-01",
@@ -83,6 +81,7 @@
     {
       "name": "X-Forum",
       "location": "Palaiseau, France",
+      "url": "https://xforum.binets.fr/en",
       "position": "Vice President",
       "startDate": "2022-05-01",
       "endDate": "2024-05-01",
@@ -114,13 +113,11 @@
   "languages": [
     {
       "language": "French",
-      "fluency": "Native",
-      "certification": "Voltaire certification"
+      "fluency": "Native"
     },
     {
       "language": "English",
-      "fluency": "Proficient",
-      "certification": "TOEFL: 101"
+      "fluency": "Proficient"
     },
     {
       "language": "Spanish",
@@ -134,7 +131,7 @@
   "interests": [
     {
       "name": "Tennis",
-      "highlights": [
+      "summary": [
         "Regional level player, top 3% in France",
         "Team captain for 8 years",
         "Ball-boy at French Open (Roland Garros) in 2015"
@@ -142,13 +139,13 @@
     },
     {
       "name": "Football",
-      "highlights": [
+      "summary": [
         "Member of school's first team in the University Championship"
       ]
     },
     {
       "name": "Piano",
-      "highlights": [
+      "summary": [
         "Played for 9 years in classical, jazz, and pop styles"
       ]
     }
