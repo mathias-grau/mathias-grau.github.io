@@ -21,5 +21,4 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p><a href="https://www.polytechnique.edu/">Ecole Polytechnique</a> / <a href="https://www.master-mva.com/">El Karoui</a></p>
-      <p>Ecole Polytechnique / El Karoui</p>
 ---
