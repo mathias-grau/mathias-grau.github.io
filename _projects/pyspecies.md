@@ -12,6 +12,15 @@ This project was conducted under the supervision of [Vincent Bansaye](http://www
 
 In population dynamics, cross-diffusion reveals local interactions that lead to spatial segregation between two species. To describe these repulsive effects, we first develop a probabilistic model that also considers birth and death events, simulated using the Gillespie algorithm. This approach naturally leads, in the limit, to a deterministic behavior described by a system of partial differential equations. Due to the presence of a nonlinear cross-diffusion term in the initial system, solving it numerically is challenging, especially over long time periods.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/pyspecies/pyspecies.gif" title="gif pyspecies" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Annimation of the cross diffusion using the deterministic approach.
+</div>
+
 To reach and observe the system's stationary states, we subsequently implement an efficient integration algorithm for the continuous model. We then formulate some conjectures on conditions that may promote segregation at equilibrium and demonstrate initial results in this regard.
 
 Finally, we explain and illustrate how, and to what extent, the continuous model can indeed be understood as the natural limit of the stochastic Markov process.
@@ -72,11 +81,15 @@ It can be shown, under certain conditions, that the semi-continuous model is the
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/pyspecies/pyspecies.gif" title="gif pyspecies" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/pyspecies/cos1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/pyspecies/cos2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/pyspecies/cos3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Annimation of the cross diffusion using the deterministic approach.
-</div>
+
 
 The library is available at [PySpecies](https://pypi.org/project/PySpecies/)
