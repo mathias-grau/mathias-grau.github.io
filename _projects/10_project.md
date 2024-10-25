@@ -7,7 +7,7 @@ importance: 1
 category: work
 related_publications: true
 ---
-Team project
+Blazing-fast simulation of population dynamics, based on the Shigesada-Kawasaki-Teramoto (SKT) reaction-diffusion model. [[PubMed &#39;79]](https://pubmed.ncbi.nlm.nih.gov/513804/)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
