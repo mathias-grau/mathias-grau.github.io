@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Championship Modeling: Simulating Football Outcomes
+title: Championship Modeling, Simulating Football Outcomes
 description: MODAL, Random numerical simulation (SNA) of rare events
 img: assets/img/modal/premierleague.png
 importance: 1
