@@ -16,6 +16,7 @@
     {
       "institution": "Université Paris-Saclay",
       "location": "Gif-sur-Yvette, France",
+      "url": "https://www.master-mva.com/",
       "name": "Master of Science, Mathematics Vision Learning (MVA)",
       "startDate": "2024-09-01",
       "endDate": "2025-07-01",
@@ -27,6 +28,7 @@
     {
       "institution": "Ecole Polytechnique",
       "location": "Palaiseau, France",
+      "url": "https://programmes.polytechnique.edu/cycle-ingenieur-polytechnicien/cycle-ingenieur-polytechnicien",
       "name": "Master of Science (Cycle Ingénieur), Applied Mathematics",
       "startDate": "2021-09-01",
       "endDate": "2025-07-01",
@@ -39,6 +41,7 @@
     {
       "institution": "Collège Stanislas",
       "location": "Paris, France",
+      "url" : "https://www.stanislas.fr/",
       "name": "Bachelor of Science (Preparatory Classes: CPGE), Mathematics, Physics and Chemistry",
       "startDate": "2019-09-01",
       "endDate": "2021-07-01",
