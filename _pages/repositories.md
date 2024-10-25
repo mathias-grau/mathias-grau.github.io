@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: Main repositories linked to my projects.
 nav: true
 nav_order: 4
