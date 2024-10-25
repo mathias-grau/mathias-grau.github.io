@@ -61,12 +61,9 @@
       "endDate": "2024-09-01",
       "summary": "Developed and optimized machine learning algorithms for antigen specificity prediction in T-Cell Receptors",
       "highlights": [
-        {
-          "description": "Worked within the Immunoinformatics and Machine Learning group under the supervision of Prof. Morten Nielsen on the NetTCR2.2 model",
-          "linkText": "NetTCR2.2",
-          "url": "https://elifesciences.org/reviewed-preprints/93934"
-        },
-        "Enhanced NetTCR model from NetTCR2.2 to NetTCR3.0, improving AUC performance by 5%"
+        "Researcher in the Immunoinformatics and Machine Learning Group, under the supervision of Professor M. Nielsen.",
+        "Developed and optimised machine learning algorithms to predict the antigen specificity of T-cell receptors (TCRs), significantly advancing immune response modelling.",
+        "Led the enhancement of the NetTCR model, progressing from NetTCR2.2 to NetTCR3.0 by implementing a novel Recurrent Neural Network (RNN)-based architecture, resulting in a 5% improvement in AUC (Area Under the Curve) performance. The upgraded model is now recognised as the first academic model in its field. (Manuscript in progress, scheduled for publication in the coming months)."
       ]
     },
     {
@@ -78,7 +75,9 @@
       "endDate": "2023-09-01",
       "summary": "Advanced therapeutic target identification using omics data",
       "highlights": [
-        "Implemented statistical models and Benjamini & Hochberg methods for RNA sequencing datasets"
+        "Enhance therapeutic target identification by leveraging multi-omics data, including proteomics, genomics, and transcriptomics, to streamline the discovery of novel drug targets and optimise target validation models for the drug development pipeline.",
+        "Analyse large-scale RNA sequencing datasets from public repositories (e.g., UniProt, GEO, and others) to uncover insights into gene expression profiles across diverse diseases.",
+        "Apply advanced statistical models and implement multiple testing correction methods, such as Benjamini & Hochberg, to identify differentially expressed genes, ensuring the selection of the most promising therapeutic targets."
       ]
     },
     {
@@ -90,10 +89,12 @@
       "endDate": "2024-05-01",
       "summary": "Organized Ecole Polytechnique's career fair, one of the largest in France",
       "highlights": [
-        "Gathered 200 companies, 1500 students, managed a budget of about 600,000€",
-        "Led a team of 60 students"
+        "Organising Ecole Polytechnique's career fair, one of the largest in France"
       ]
     }
+  ],
+  "publications": [
+    {}
   ],
   "skills": [
     {
@@ -129,6 +130,32 @@
     {
       "language": "Arabic",
       "fluency": "Beginner"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Machine Learning tools for Time Series",
+      "summary": "Team Project as part of MAP565 : Modélisation aléatoire et statistique des processus final project.",
+      "highlights": ["Time Series Forecasting", "GARCH/ARCH processes", "Copulas", "Extreme Value Analysis", "GP and Kriging"],
+      "startDate": "2025-01-01",
+      "endDate": "2025-05-01",
+      "url": "https://github.com/mathias-grau/MAP565"
+    },
+    {
+      "name": "Extractive Summarization with Discourse Graphs",
+      "summary": "Team Project as part of INF554 : Machine Learning and Deep Learning course of Pr M. Vazirgiannis.",
+      "highlights": ["Machine Learning for text featurization ", "Deep learning methods, especially ANN with LSTM"],
+      "startDate": "2023-09-01",
+      "endDate": "2024-01-01",
+      "url": "https://github.com/mathias-grau/kaggle_discourse_graph"
+    },
+    {
+      "name": "Cross-diffusion in population dynamics (PySpecies and PySpeciesStochastic)",
+      "summary": "Collective Scientific Project on Cross-diffusion in population dynamics under the supervision of Professor V. Bansaye and Professor M. Breden, Ecole Polytechnique’s CMAP),.",
+      "highlights": ["PySpecies", "PySpeciesStochastic"],
+      "startDate": "2022-09-01",
+      "endDate": "2023-05-01",
+      "url": "https://pypi.org/project/PySpecies/"
     }
   ],
   "interests": [
