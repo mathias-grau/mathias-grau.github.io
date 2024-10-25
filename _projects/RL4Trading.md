@@ -33,6 +33,18 @@ Acces to report :
   2. Selling a certain proportion of stocks based on the model's confidence in a sell strategy.
   3. Taking no action.
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/RL4Trading/scatter.png" title="scatter" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/RL4Trading/bars.png" title="bars" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
+    </div>
+</div>
+<div class="caption">
+    Representation of the actions taken and their proportion.
+</div>
+
 ### Deep Q-Network (DQN)
 
 * Our DQN architecture was a blend of various layers, notably incorporating LSTM due to the sequential nature of trading data. Additionally, it considered other relevant factors such as the number of stocks held and the current account balance.
@@ -47,4 +59,18 @@ Acces to report :
 </div>
 <div class="caption">
     Two models using combination of RNN and Transformers to predict the next price value.
+</div>
+
+### Results
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/RL4Trading/triangle.png" title="triangle" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/RL4Trading/wealth.png" title="wealth" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
+    </div>
+</div>
+<div class="caption">
+    Action taken over time and evolution of the value of the account.
 </div>
