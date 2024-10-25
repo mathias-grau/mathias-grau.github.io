@@ -17,10 +17,10 @@
       "institution": "Université Paris-Saclay",
       "location": "Gif-sur-Yvette, France",
       "url": "https://www.master-mva.com/",
-      "name": "Master of Science, Mathematics Vision Learning (MVA)",
+      "area": "Master of Science, Mathematics Vision Learning (MVA)",
       "startDate": "2024-09-01",
       "endDate": "2025-07-01",
-      "highlights": [
+      "courses": [
         "Courses: Probabilistic Graphical Models and Deep Generative Models, Geometric Data Analysis, Algorithms and learning for protein science, Reinforcement learning, Advanced learning for text and graph data ALTEGRAD, etc.",
         "Projects: Development of ML tools for 4 months in partnership with a doctor from Hôpitaux de Paris."
       ]
@@ -29,11 +29,11 @@
       "institution": "Ecole Polytechnique",
       "location": "Palaiseau, France",
       "url": "https://programmes.polytechnique.edu/cycle-ingenieur-polytechnicien/cycle-ingenieur-polytechnicien",
-      "name": "Master of Science (Cycle Ingénieur), Applied Mathematics",
+      "area": "Master of Science (Cycle Ingénieur), Applied Mathematics",
       "startDate": "2021-09-01",
       "endDate": "2025-07-01",
-      "gpa": "3.83",
-      "highlights": [
+      "score": "3.83",
+      "courses": [
         "Courses: Advanced Machine Learning, Autonomous Agents, Machine Learning and Deep Learning, Stochastic Processes, Monte Carlo Methods, Biomedical Imaging",
         "Projects: Cross-diffusion in population dynamics, Gaussian Processes and Kriging"
       ]
@@ -42,11 +42,11 @@
       "institution": "Collège Stanislas",
       "location": "Paris, France",
       "url" : "https://www.stanislas.fr/",
-      "name": "Bachelor of Science (Preparatory Classes: CPGE), Mathematics, Physics and Chemistry",
+      "area": "Bachelor of Science (Preparatory Classes: CPGE), Mathematics, Physics and Chemistry",
       "startDate": "2019-09-01",
       "endDate": "2021-07-01",
-      "gpa": "3.97",
-      "highlights": [
+      "score": "3.97",
+      "courses": [
         "Ranked 10th at Ecole Polytechnique and 7th at Ecole Normale Supérieure (ENS Ulm)"
       ]
     }
@@ -134,11 +134,19 @@
   ],
   "projects": [
     {
+      "name": "Research Project : Kriging and Gaussian Processes",
+      "summary": "Research Team Project on Gaussian Processes for Kriging under the supervision of Pr Thierry Klein, Ecole Polytechnique’s CMAP.",
+      "highlights": ["Gaussian Processes", "Different Kernels study", "Parameters estimation"],
+      "startDate": "2023-09-01",
+      "endDate": "2024-01-01",
+      "url": "https://drive.google.com/file/d/1CmRz0wmutChekTXIY7X4lHS6kLmiXzLx/view?usp=sharing"
+    },
+    {
       "name": "Machine Learning tools for Time Series",
       "summary": "Team Project as part of MAP565 : Modélisation aléatoire et statistique des processus final project.",
       "highlights": ["Time Series Forecasting", "GARCH/ARCH processes", "Copulas", "Extreme Value Analysis", "GP and Kriging"],
-      "startDate": "2025-01-01",
-      "endDate": "2025-05-01",
+      "startDate": "2024-01-01",
+      "endDate": "2024-05-01",
       "url": "https://github.com/mathias-grau/MAP565"
     },
     {
