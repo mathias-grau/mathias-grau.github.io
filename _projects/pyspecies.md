@@ -27,7 +27,7 @@ Each individual remains at a site for a random period, determined by an exponent
         {% include figure.liquid path="assets/img/pyspecies/pyspeciessto1.png" title="pyspecies stochastic" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pyspecies/pyspeciessto1.png" title="pyspecies stochastic 2" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
+        {% include figure.liquid path="assets/img/pyspecies/pyspeciessto2.png" title="pyspecies stochastic 2" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
     </div>
 </div>
 <div class="caption">
