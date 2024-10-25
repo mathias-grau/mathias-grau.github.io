@@ -5,7 +5,7 @@ description: A pipeline to make prediction on tennis match results using ML and 
 img: assets/img/betbot/robottennis.png
 importance: 1
 category: fun
-related_publications: true
+giscus_comments: true
 ---
 
 ## Betbot on tennis matches data
