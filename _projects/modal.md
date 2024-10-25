@@ -7,7 +7,7 @@ importance: 2
 category: work
 related_publications: true
 ---
-This project was conducted under the supervision of [Gersende Fort](https://scholar.google.com/citations?user=NUoSZ24AAAAJ&hl=fr) from Polytechnique.
+This project was conducted under the supervision of Professor [Gersende Fort](https://scholar.google.com/citations?user=NUoSZ24AAAAJ&hl=fr) from Polytechnique.
 
 # Analysis of Rare Event Simulation in Sports Betting
 
