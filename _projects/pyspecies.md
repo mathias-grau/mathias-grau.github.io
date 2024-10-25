@@ -36,28 +36,7 @@ Each individual remains at a site for a random period, determined by an exponent
 
 ## Deterministic implementation
 
-To recap, the SKT model we study consists of the following system of equations:
-
-\[
-\begin{cases}
-\partial_t u - \Delta (d_1 u + d_{11} u^2 + d_{12} uv) = u (r_1 - a_1 u - b_1 v) \\
-\partial_t v - \Delta (d_2 v + d_{21} uv + d_{22} v^2) = v (r_2 - b_2 u - a_2 v)
-\end{cases}
-\]
-
-where \( u(x, t) \) and \( v(x, t) \) are the concentrations of the two species. The coefficients are grouped in the diffusion matrix \( D \) and the reaction matrix \( R \):
-
-\[
-D = \begin{pmatrix} d_1 & d_{11} & d_{12} \\ d_2 & d_{21} & d_{22} \end{pmatrix}, \quad R = \begin{pmatrix} r_1 & a_1 & b_1 \\ r_2 & b_2 & a_2 \end{pmatrix}.
-\]
-
 We operate under periodic boundary conditions, but the results we present can also be extended to homogeneous Neumann boundary conditions.
-
-**Note:** The SKT model generalizes many classic models in population dynamics. For example, let \( a \), \( b \), \( c \), and \( d \) be positive constants. The Lotka-Volterra predator-prey model corresponds to:
-
-\[
-D = \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}, \quad R = \begin{pmatrix} a & 0 & b \\ -d & -c & 0 \end{pmatrix}.
-\]
 
 It can be shown, under certain conditions, that the semi-continuous model is the deterministic limit of the stochastic framework previously described. We quickly developed a library to solve this class of systems to:
 
