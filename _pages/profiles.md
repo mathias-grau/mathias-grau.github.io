@@ -14,13 +14,12 @@ profiles:
     content: about_samuel.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Ecole Polytechnique / MVA</p>
+      <p><a href="https://www.polytechnique.edu/">Ecole Polytechnique</a> / <a href="https://www.master-mva.com/">MVA</a></p>
   - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: prof_pic_samuel.png
+    content: about_gaude.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p><a href="https://www.polytechnique.edu/">Ecole Polytechnique</a> / <a href="https://finance.math.upmc.fr/">El Karoui</a></p>
+      <p>Ecole Polytechnique / El Karoui</p>
 ---
