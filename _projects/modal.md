@@ -7,7 +7,6 @@ importance: 2
 category: work
 related_publications: true
 ---
-
 This project was conducted under the supervision of [Gersende Fort](https://scholar.google.com/citations?user=NUoSZ24AAAAJ&hl=fr) from Polytechnique.
 
 # Analysis of Rare Event Simulation in Sports Betting
@@ -24,7 +23,7 @@ In the sports betting industry, bookmakers rely on extensive digital and statist
 
 # Problem Definition
 
-Our model uses the Bradley-Terry framework, a popular approach for modeling competitive tournaments. Here, each team ii has an intrinsic value ViVi​, determining its probability pij:=Vi/(Vi+Vj)pij​:=Vi​/(Vi​+Vj​) of winning against any opponent jj. Using this probability framework, we constructed a 20-team tournament matrix and simulated head-to-head matches to build a probability matrix of match outcomes.
+Our model uses the Bradley-Terry framework, a popular approach for modeling competitive tournaments. Here, each team ii has an intrinsic value ViVi, determining its probability $pij:=Vi/(Vi+Vj)pij:=Vi/(Vi+Vj)$ of winning against any opponent jj. Using this probability framework, we constructed a 20-team tournament matrix and simulated head-to-head matches to build a probability matrix of match outcomes.
 
 # Initial Estimations
 

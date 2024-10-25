@@ -23,18 +23,45 @@ In this section, we simulate this deterministic evolution using a probabilistic 
 Each individual remains at a site for a random period, determined by an exponential distribution with an average inversely proportional to the number of individuals at that site. If an individual moves, the destination site is chosen uniformly from adjacent sites. The model then evolves after the reaction time of the individual that reacts first, resetting the reaction times for all other individuals according to the new distribution. This initial reaction time can thus be regarded as the general jump time of the given distribution.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pyspecies/pyspeciessto1.png" title="pyspecies stochastic" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/pyspecies/pyspeciessto1.png" title="pyspecies stochastic" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pyspecies/pyspeciessto1.png" title="pyspecies stochastic 2" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/pyspecies/pyspeciessto1.png" title="pyspecies stochastic 2" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
     </div>
 </div>
 <div class="caption">
     Evolution of the cross diffusion using the stochastic approach.
 </div>
 
+
 ## Deterministic implementation
+
+*SKT Model* proposed by Sheguesada, Kawazaki et Teramoto :
+
+$$
+\begin{cases}
+\partial_{t}u-\Delta\left(d_{1}u+d_{11}u^{2}+d_{12}uv\right) & =u\left(r_{1}-a_{1}u-b_{1}v\right)\\
+\partial_{t}v-\Delta\left(d_{2}v+d_{21}uv+d_{22}v^{2}\right) & =v\left(r_{2}-b_{2}u-a_{2}v\right)
+\end{cases}\qquad\text{sur}\,[0,1]\times\mathbb{R}_{+}.
+$$
+
+where $u(x,t)$ et $v(x,t)$ are concentrations (positive) of the 2 species. Coefficients are gathered in the diffision matrix $\mathcal{D}$ and the reaction matrix $\mathcal{R}$ :
+
+$$
+\mathcal{D}:=\begin{pmatrix}d_{1} & d_{11} & d_{12}\\
+d_{2} & d_{21} & d_{22}
+\end{pmatrix}\qquad\text{et}\qquad\mathcal{R}:=\begin{pmatrix}r_{1} & a_{1} & b_{1}\\
+r_{2} & b_{2} & a_{2}
+\end{pmatrix}
+$$
+
+The prey-predator system of \textsc{Lotka-Volterra} is :
+$$
+\mathcal{D}:=\textbf{0}_{2\times3}\quad\text{et}\quad\mathcal{R}:=\begin{pmatrix}a & 0 & b\\
+-d & -c & 0
+\end{pmatrix}.
+$$
 
 We operate under periodic boundary conditions, but the results we present can also be extended to homogeneous Neumann boundary conditions.
 
