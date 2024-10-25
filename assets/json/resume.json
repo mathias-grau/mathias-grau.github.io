@@ -7,16 +7,16 @@
       "countryCode": "FR",
       "region": "Île-de-France"
     },
-    "email": "mathias.grau@polytechnique.edu",
+    "email": "mathias.grau**nospam**@polytechnique.org",
     "phone": "(+33) 6.52.82.53.78",
     "url": "https://www.linkedin.com/in/mathias-grau/",
-    "summary": "Seeking a 6-month internship with InstaDeep in the BioAI team, starting in April 2025, as a precursor to PhD enrollment."
+    "summary": "Seeking a 6-month internship, starting in April 2025, as a precursor to PhD enrollment."
   },
   "education": [
     {
       "institution": "Université Paris-Saclay",
       "location": "Gif-sur-Yvette, France",
-      "degree": "Master of Science, Mathematics Vision Learning (MVA)",
+      "name": "Master of Science, Mathematics Vision Learning (MVA)",
       "startDate": "2024-09-01",
       "endDate": "2025-07-01",
       "highlights": [
@@ -27,7 +27,7 @@
     {
       "institution": "Ecole Polytechnique",
       "location": "Palaiseau, France",
-      "degree": "Master of Science (Cycle Ingénieur), Applied Mathematics",
+      "name": "Master of Science (Cycle Ingénieur), Applied Mathematics",
       "startDate": "2021-09-01",
       "endDate": "2025-07-01",
       "gpa": "3.83",
@@ -37,19 +37,9 @@
       ]
     },
     {
-      "institution": "Université Paris-Nanterre",
-      "location": "Nanterre, France",
-      "degree": "Bachelor of Philosophy (Licence EAD)",
-      "startDate": "2022-09-01",
-      "endDate": "2024-07-01",
-      "highlights": [
-        "Themes: Philosophy of science, gender, religion, art, knowledge, and the possible"
-      ]
-    },
-    {
       "institution": "Collège Stanislas",
       "location": "Paris, France",
-      "degree": "Bachelor of Science (Preparatory Classes: CPGE), Mathematics, Physics and Chemistry",
+      "name": "Bachelor of Science (Preparatory Classes: CPGE), Mathematics, Physics and Chemistry",
       "startDate": "2019-09-01",
       "endDate": "2021-07-01",
       "gpa": "3.97",
@@ -62,11 +52,20 @@
     {
       "name": "DTU, Department of Health Technology",
       "location": "Copenhagen, Denmark",
+      "organization": {
+        "name": "DTU",
+        "url": "https://orbit.dtu.dk/en/organisations/immunoinformatics-and-machine-learning"
+      },
       "position": "Research Intern, Immunoinformatics and Machine Learning group",
       "startDate": "2024-04-01",
       "endDate": "2024-09-01",
       "summary": "Developed and optimized machine learning algorithms for antigen specificity prediction in T-Cell Receptors",
       "highlights": [
+        {
+          "description": "Worked within the Immunoinformatics and Machine Learning group under the supervision of Prof. Morten Nielsen on the NetTCR2.2 model",
+          "linkText": "NetTCR2.2",
+          "url": "https://elifesciences.org/reviewed-preprints/93934"
+        },
         "Enhanced NetTCR model from NetTCR2.2 to NetTCR3.0, improving AUC performance by 5%"
       ]
     },
