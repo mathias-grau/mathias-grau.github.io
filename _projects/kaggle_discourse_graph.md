@@ -10,6 +10,11 @@ category: work
 ### Description
 This project, led by Samuel Gaudin, Alexandre Ver Hulst and I at École Polytechnique part of INF554 course, focuses on identifying key messages in business dialogues using machine learning. By analyzing 137 labeled business dialogues, we explored various features—such as message size, speaker type, sentence embeddings, and sentiment scores—to determine message importance.
 
+Acces to report : 
+- [Report](https://drive.google.com/file/d/1GCnV0BeyAnpMD-6AO7kEpjh2x3wmT-N_/view?usp=sharing)
+- [Presentation](https://docs.google.com/presentation/d/18vy1SKKbggmyhUbXbB6B1u5zj-in9ekTb-XvCYqMJ0E/edit?usp=sharing)
+- [Repo](https://github.com/mathias-grau/kaggle_discourse_graph)
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/kaggle_discourse_graph/description.png" title="IS note" class="img-fluid rounded z-depth-1" style="width: 50%;" %}

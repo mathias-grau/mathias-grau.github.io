@@ -8,6 +8,9 @@ category: work
 ---
 This project was conducted under the supervision of Professor [Gersende Fort](https://scholar.google.com/citations?user=NUoSZ24AAAAJ&hl=fr) from Polytechnique.
 
+Acces to report : 
+- [Report](https://drive.google.com/file/d/1v4GrWoHWm-h2UwqU7EgpygvaVmQWruQD/view?usp=sharing)
+
 ## Analysis of Rare Event Simulation in Sports Betting
 
 In the sports betting industry, bookmakers rely on extensive digital and statistical tools to evaluate the odds for each team’s victory. One striking example of a rare outcome in football history is Leicester City’s unexpected win in the 2015-2016 Premier League season, which defied all predictions. Inspired by this season, we developed a model to simulate rare events in a tournament setting, which we tested and analyzed against real data.
