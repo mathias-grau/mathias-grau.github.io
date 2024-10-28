@@ -20,5 +20,5 @@ profiles:
     content: about_gaude.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p><a href="https://www.polytechnique.edu/">Ecole Polytechnique</a> / <a href="https://www.master-mva.com/">El Karoui</a></p>
+      <p><a href="https://www.polytechnique.edu/">Ecole Polytechnique</a> / <a href="https://finance.math.upmc.fr/">El Karoui</a></p>
 ---
