@@ -7,12 +7,12 @@ importance: 1
 category: work
 ---
 
-This project was conducted under the supervision of [Vincent Bansaye](http://www.cmap.polytechnique.fr/~bansaye/) and [Maxime Breden](https://scholar.google.com/citations?user=2T2IU_sAAAAJ&hl=fr) from Polytechnique's [CMAP](https://cmap.ip-paris.fr/).
+This project was conducted under the supervision of [Vincent Bansaye](http://www.cmap.polytechnique.fr/~bansaye) and [Maxime Breden](https://scholar.google.com/citations?user=2T2IU_sAAAAJ&hl=fr) from Polytechnique's [CMAP](https://cmap.ip-paris.fr).
 
 Acces to report : 
 - [Report](https://drive.google.com/file/d/1TvKZ-fQeibX1Sz-vXV7YbF1NBZH2b6We/view?usp=sharing)
 - [Repo](https://github.com/mathias-grau/pyspecies)
-- [PyPi](https://pypi.org/project/PySpecies/)
+- [PyPi](https://pypi.org/project/PySpecies)
 
 In population dynamics, cross-diffusion reveals local interactions that lead to spatial segregation between two species. To describe these repulsive effects, we first develop a probabilistic model that also considers birth and death events, simulated using the Gillespie algorithm. This approach naturally leads, in the limit, to a deterministic behavior described by a system of partial differential equations. Due to the presence of a nonlinear cross-diffusion term in the initial system, solving it numerically is challenging, especially over long time periods.
 
