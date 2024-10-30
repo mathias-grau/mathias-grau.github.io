@@ -70,6 +70,15 @@ An unexpected finding during this project was that RSA-based removal of residues
 - Performance Improvement: Achieved a 2.7% increase in AUC0.1, validated through statistical tests, confirming significant improvement over previous models.
 - Model Robustness: Enhanced accuracy in identifying peptides with fewer positive binders, demonstrating reliability across diverse peptide data.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/DTU/8.png" title="Architecture" class="img-fluid rounded z-depth-1" style="width: 50%;" %}
+    </div>
+</div>
+<div class="caption">
+    New model architecture
+</div>
+
 ### Conclusion
 
 Initially, our RSA-based approach aimed to retain only accessible residues essential for interactions, but filtering residues by RSA thresholds unexpectedly lowered model performance, likely by excluding valuable structural information. Recognizing RSA's value, we adjusted our strategy to integrate it into the model without removing residues. Building on previous CNN models, we developed a GRU architecture tailored to capture sequential dependencies in TCR-peptide interactions, incorporating structural features like RSA and minimum distance values. Although these features enriched the model’s understanding, they did not yield the expected gains in accuracy, highlighting the complexity of integrating structural data. Rigorous testing showed the GRU model improved predictive performance, especially with challenging peptides, yet RSA and distance features did not consistently enhance results, indicating further exploration is needed for effective feature integration.
