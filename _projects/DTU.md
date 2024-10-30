@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Enhancing TCR-Peptide Binding Predictions for Immunoinformatics
+title: Enhancing TCR-pMHC Binding Predictions
 description: 3A Internship Project Overview (DTU)
 img: assets/img/DTU/2.png
 importance: 1
