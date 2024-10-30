@@ -53,10 +53,10 @@ An unexpected finding during this project was that RSA-based removal of residues
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pyspecies/DTU/6.png" title="result 1" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
+        {% include figure.liquid path="assets/img/DTU/6.png" title="result 1" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/pyspecies/DTU/7.png" title="result 2" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
+        {% include figure.liquid path="assets/img/DTU/7.png" title="result 2" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
     </div>
 </div>
 <div class="caption">
