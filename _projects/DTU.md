@@ -65,10 +65,10 @@ An unexpected finding during this project was that RSA-based removal of residues
 
 #### Key Findings
 
+- Feature Integration: Shifted from RSA-based residue removal to incorporating RSA as an additional model feature, preserving essential structural information.
+- New architecture based on GRU layers instead of only convolutions
 - Performance Improvement: Achieved a 2.7% increase in AUC0.1, validated through statistical tests, confirming significant improvement over previous models.
 - Model Robustness: Enhanced accuracy in identifying peptides with fewer positive binders, demonstrating reliability across diverse peptide data.
-- Feature Integration: Shifted from RSA-based residue removal to incorporating RSA as an additional model feature, preserving essential structural information.
-- Newstructure gives better 
 
 ### Conclusion
 
