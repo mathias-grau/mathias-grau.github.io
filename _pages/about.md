@@ -13,7 +13,7 @@ profile:
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 I am Mathias Grau, a final-year Master's student at [École Polytechnique](https://www.polytechnique.edu/), specializing in [Mathematics Vision Learning (MVA)](https://www.master-mva.com/) at [Université Paris-Saclay](https://www.universite-paris-saclay.fr/). 
