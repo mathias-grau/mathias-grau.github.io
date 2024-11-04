@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p><a href="https://www.polytechnique.edu/">Ecole Polytechnique</a> / <a href="https://www.master-mva.com/">MVA</a></p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
