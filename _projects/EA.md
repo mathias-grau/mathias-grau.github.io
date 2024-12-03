@@ -10,7 +10,7 @@ category: work
 In this project, we implemented a Gaussian Processes and Kriging optimization based on Maximum Likelihood estimation of the parameters. We did it under the supervision of [Pr Thierry Klein](https://thierry-klein.fr)
 
 Acces to report : 
-- [Report](https://drive.google.com/drive/folders/1ES0FDs7smQAlpqO1nLOrif6VRTSmEXPv)
+- [Report](https://drive.google.com/file/d/1DGlt8UkWdQH5bS9JHw6bvIGN-q-N0Mgo/view?usp=drive_link)
 
 ## Abstract
 
@@ -194,7 +194,7 @@ The Matérn kernel is crucial for our work as it balances flexibility and smooth
 
 
 
-For more informations, refer to our [Report](https://drive.google.com/drive/folders/1ES0FDs7smQAlpqO1nLOrif6VRTSmEXPv).
+For more informations, refer to our [Report](https://drive.google.com/file/d/1DGlt8UkWdQH5bS9JHw6bvIGN-q-N0Mgo/view?usp=drive_link).
 
 
 
