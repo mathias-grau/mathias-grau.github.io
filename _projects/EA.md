@@ -7,7 +7,7 @@ importance: 3
 category: work
 ---
 
-In this project, we implemented a Gaussian Processes and Kriging optimization based on Maximum Likelihood estimation of the parameters.
+In this project, we implemented a Gaussian Processes and Kriging optimization based on Maximum Likelihood estimation of the parameters. We did it under the supervision of [Pr Thierry Klein](https://thierry-klein.fr)
 
 Acces to report : 
 - [Report](https://drive.google.com/drive/folders/1ES0FDs7smQAlpqO1nLOrif6VRTSmEXPv)
