@@ -167,7 +167,7 @@ $$
 
 ## Important Example: The Matérn Kernel
 
-To illustrate the previous theorem, we will use the Matérn kernel, a covariance matrix ($K$) that serves as a foundational tool for our research. The Matérn kernel is defined as follows:
+To illustrate the previous theorem, we will use the Matérn kernel, a covariance matrix ($$K$$) that serves as a foundational tool for our research. The Matérn kernel is defined as follows:
 
 $$
 K_{\text{Matern}}(d) = \sigma^2 \frac{2^{1-\nu}}{\Gamma(\nu)} \left( \frac{\sqrt{2\nu} \, d}{l} \right)^\nu K_\nu\left( \frac{\sqrt{2\nu} \, d}{l} \right)
@@ -189,7 +189,7 @@ The Matérn kernel is crucial for our work as it balances flexibility and smooth
     </div>
 </div>
 <div class="caption">
-    Comparison of kriging with the true Matérn kernel ($$l = 1$$, $$\nu = \frac{5}{2}$$, and $$\sigma = 0.1$$) and the one obtained through maximum likelihood estimation.
+    Comparison of kriging with the true Matérn kernel and the one obtained through maximum likelihood estimation.
 </div>
 
 
