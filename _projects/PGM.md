@@ -3,7 +3,7 @@ layout: page
 title: Denoising Diffusion Probabilistic Models (DDPM)
 description: Introduction to Probabilistic Graphical Models and Deep Generative Models Course as part of M2 MVA
 img: assets/img/PGM/bg.png
-importance: 2
+importance: 3
 category: work
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Reinforcement Learning on financial data
 description: A Project of INF581 Advanced Machine Learning and Autonomous Agents course at Ecole Polytechnique
 img: assets/img/RL4Trading/trading.png
-importance: 3
+importance: 6
 category: work
 ---
 
