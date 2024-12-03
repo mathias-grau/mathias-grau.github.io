@@ -65,7 +65,7 @@ $$
 L(\sigma^2, \theta) := \frac{1}{n} \ln |\sigma^2 R_\theta| + \frac{1}{n} \frac{1}{\sigma^2} \mathbf{y}^t R^{-1}_\theta \mathbf{y}
 $$
 
-Optimizing with respect to \(\sigma^2\), for a fixed \(\theta\), can be done explicitly. This reduces the dimensionality of the numerical optimization problem. The following proposition summarizes this result:
+Optimizing with respect to $$\sigma^2$$, for a fixed \(\theta\), can be done explicitly. This reduces the dimensionality of the numerical optimization problem. The following proposition summarizes this result:
 
 ### Proposition
 
