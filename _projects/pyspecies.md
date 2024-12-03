@@ -59,7 +59,7 @@ $$
 \end{cases}\qquad\text{sur}\,[0,1]\times\mathbb{R}_{+}.
 $$
 
-where $u(x,t)$ et $v(x,t)$ are concentrations (positive) of the 2 species. Coefficients are gathered in the diffision matrix $\mathcal{D}$ and the reaction matrix $\mathcal{R}$ :
+where $$u(x,t)$$ et $$v(x,t)$$ are concentrations (positive) of the 2 species. Coefficients are gathered in the diffision matrix $$\mathcal{D}$$ and the reaction matrix $$\mathcal{R}$$ :
 
 $$
 \mathcal{D}:=\begin{pmatrix}d_{1} & d_{11} & d_{12}\\
@@ -69,7 +69,7 @@ r_{2} & b_{2} & a_{2}
 \end{pmatrix}
 $$
 
-The prey-predator system of \textsc{Lotka-Volterra} is :
+The prey-predator system of Lotka-Volterra is :
 $$
 \mathcal{D}:=\textbf{0}_{2\times3}\quad\text{et}\quad\mathcal{R}:=\begin{pmatrix}a & 0 & b\\
 -d & -c & 0
