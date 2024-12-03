@@ -65,11 +65,11 @@ $$
 L(\sigma^2, \theta) := \frac{1}{n} \ln |\sigma^2 R_\theta| + \frac{1}{n} \frac{1}{\sigma^2} \mathbf{y}^t R^{-1}_\theta \mathbf{y}
 $$
 
-Optimizing with respect to $\sigma^2$, for a fixed $\theta$, can be done explicitly. This reduces the dimensionality of the numerical optimization problem. The following proposition summarizes this result:
+Optimizing with respect to \(\sigma^2\), for a fixed \(\theta\), can be done explicitly. This reduces the dimensionality of the numerical optimization problem. The following proposition summarizes this result:
 
 ### Proposition
 
-The maximum likelihood estimator of $(\sigma^2, \theta)$ is $\hat{\sigma}^2_{ML}, \hat{\theta}_{ML}$, where:
+The maximum likelihood estimator of \((\sigma^2, \theta)\) is \(\hat{\sigma}^2_{ML}, \hat{\theta}_{ML}\), where:
 
 $$
 \hat{\theta}_{ML} \in \arg\min_{\theta \in \Theta} L(\theta)
@@ -95,7 +95,7 @@ $$
 
 ## Universal Kriging
 
-For universal kriging, the mean function is no longer assumed to be zero. Let $H$ be the $n \times m$ matrix where:
+For universal kriging, the mean function is no longer assumed to be zero. Let \(H\) be the \(n \times m\) matrix where:
 
 $$
 H_{i,j} = g_j(x^{(i)}),
@@ -107,25 +107,25 @@ $$
 \sum_{i=1}^m \beta_i g_i,
 $$
 
-with known functions $g_i$ and unknown coefficients $\beta_i$. Let $h$ be the $m \times 1$ vector defined as:
+with known functions $g_i$ and unknown coefficients \(\beta_i\). Let $h$ be the \(m \times 1\) vector defined as:
 
 $$
 h_j = g_j(x_{\text{new}}).
 $$
 
-Explicitly incorporating $\sigma^2$ and $\theta$, we write the likelihood equations only for this case.
+Explicitly incorporating \(\sigma^2\) and \(\theta\), we write the likelihood equations only for this case.
 
-The likelihood criterion, depending on $\beta$, $\sigma^2$, and $\theta$, is:
+The likelihood criterion, depending on \(\beta\), \(\sigma^2\), and \(\theta\), is:
 
 $$
 L(\beta, \sigma^2, \theta) := \frac{1}{n} \ln |\sigma^2 R_\theta| + \frac{1}{n\sigma^2} (\mathbf{y} - H\beta)^t R^{-1}_\theta (\mathbf{y} - H\beta).
 $$
 
-As with simple kriging, the likelihood criterion can be minimized explicitly with respect to $\beta$ and $\sigma^2$, eliminating $m + 1$ dimensions (the dimension of $\beta$ plus one). This is summarized in the following proposition:
+As with simple kriging, the likelihood criterion can be minimized explicitly with respect to \(\beta\) and \(\sigma^2\), eliminating \(m + 1\) dimensions (the dimension of \(\beta\) plus one). This is summarized in the following proposition:
 
 ### Proposition
 
-The maximum likelihood estimator of $(\beta, \sigma^2, \theta)$ is $(\hat{\beta}_{ML}, \hat{\sigma}^2_{ML}, \hat{\theta}_{ML})$, where:
+The maximum likelihood estimator of \((\beta, \sigma^2, \theta)\) is \((\hat{\beta}_{ML}, \hat{\sigma}^2_{ML}, \hat{\theta}_{ML})\), where:
 
 $$
 \hat{\theta}_{ML} \in \arg\min_{\theta \in \Theta} L(\theta),
@@ -175,10 +175,10 @@ $$
 
 Where the parameters are defined as:
 
-- **$d$**: The distance between two points. The kernel function must be decreasing with respect to $d$, as greater distances imply less influence between points.
-- **$\sigma^2$**: The variance of the kernel. A larger $\sigma^2$ corresponds to larger variations in the trajectories.
-- **$l$**: The length-scale parameter. Larger values of $l$ result in higher correlation between two points $x_1$ and $x_2$, effectively making the function smoother.
-- **$\nu$**: The regularity parameter. The function $Y$ is $k$-times differentiable in the least-squares sense and almost surely differentiable when $\nu > k$.
+- **\(d\)**: The distance between two points. The kernel function must be decreasing with respect to \(d\), as greater distances imply less influence between points.
+- **\(\sigma^2\)**: The variance of the kernel. A larger \(\sigma^2\) corresponds to larger variations in the trajectories.
+- **\(l\)**: The length-scale parameter. Larger values of \(l\) result in higher correlation between two points \(x_1\) and \(x_2\), effectively making the function smoother.
+- **\(\nu\)**: The regularity parameter. The function \(Y\) is \(k\)-times differentiable in the least-squares sense and almost surely differentiable when \(\nu > k\).
 
 The Matérn kernel is crucial for our work as it balances flexibility and smoothness, making it ideal for modeling processes with varying levels of regularity and correlation.
 
@@ -189,7 +189,7 @@ The Matérn kernel is crucial for our work as it balances flexibility and smooth
     </div>
 </div>
 <div class="caption">
-    Comparison of kriging with the true Matérn kernel ($l = 1$, $\nu = \frac{5}{2}$, and $\sigma = 0.1$) and the one obtained through maximum likelihood estimation.
+    Comparison of kriging with the true Matérn kernel (\(l = 1\), \(\nu = \frac{5}{2}\), and \(\sigma = 0.1\)) and the one obtained through maximum likelihood estimation.
 </div>
 
 
