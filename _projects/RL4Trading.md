@@ -34,17 +34,6 @@ Acces to report :
   2. Selling a certain proportion of stocks based on the model's confidence in a sell strategy.
   3. Taking no action.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/RL4Trading/scatter.png" title="scatter" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/RL4Trading/bars.png" title="bars" class="img-fluid rounded z-depth-1 fixed-aspect-ratio" %}
-    </div>
-</div>
-<div class="caption">
-    Representation of the actions taken and their proportion.
-</div>
 
 ### Deep Q-Network (DQN)
 
