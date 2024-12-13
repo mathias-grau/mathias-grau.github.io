@@ -64,6 +64,19 @@ We also implemented new functions and classes that extend Hugging Face diffusion
     Outputs generated
 </div>
 
+We implemented the **Immiscible Diffusion** paper by *Yiheng Li et al.* to speed up the training process by assigning noise to the images based on the smallest distance between randomly generated noise and the training images in each batch.
+
+Additionally, we developed a new diffusion class that allows for mixing two images to create a new one, starting from a blend of the noisy versions of the original images.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/PGM/mixed_images_annotated.png" title="Mix" class="img-fluid rounded z-depth-1" style="width: 50%;" %}
+    </div>
+</div>
+<div class="caption">
+    Interpolations varying the number of diffusion steps prior to latent mixing
+</div>
+
 ### Conclusion
 
 By addressing some of the fundamental challenges faced by other generative modeling techniques, diffusion models have emerged as a robust alternative. Their deterministic and iterative structure lends itself to interpretability, and their performance rivals state-of-the-art methods, especially in tasks requiring high-fidelity image synthesis.
@@ -97,5 +110,16 @@ This project explores the theoretical underpinnings, practical advancements, and
   url          = {https://www.wikiart.org/},
   note         = {Accessed: 2024-11-25},
 }
+
+@misc{li2024immisciblediffusionacceleratingdiffusion,
+      title={Immiscible Diffusion: Accelerating Diffusion Training with Noise Assignment}, 
+      author={Yiheng Li and Heyang Jiang and Akio Kodaira and Masayoshi Tomizuka and Kurt Keutzer and Chenfeng Xu},
+      year={2024},
+      eprint={2406.12303},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2406.12303}, 
+}
+
 ```
 
