@@ -5,6 +5,7 @@ repo_description_lines_max: 2
 
 github_repos:
   - mathias-grau/pyspecies
+  - mathias-grau/PyKSVD
   - mathias-grau/RL4Trading
   - mathias-grau/PGM
   - mathias-grau/kaggle_discourse_graph
