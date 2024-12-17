@@ -1,6 +1,6 @@
 ---
 layout: page
-title: K-SVD: An Algorithm for Designing Overcomplete Dictionaries for Sparse Representation
+title: K-SVD - An Algorithm for Designing Overcomplete Dictionaries for Sparse Representation
 description: PyKSVD is a Python implementation of the K-SVD algorithm based on paper K-SVD by Michal Aharon, Michael Elad, and Alfred Bruckstein.
 img: assets/img/KSVD/bg.png
 importance: 2
