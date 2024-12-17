@@ -21,7 +21,6 @@ PyKSVD is a Python implementation of the K-SVD algorithm based on paper *K-SVD: 
 ## Examples
 
 - Image processing : Denoise or complete a corrupted image with missing pixels with patches. 
-![Image Reconstruction with 70% missing pixels](images/example_corrupted_image_70.png)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
