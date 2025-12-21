@@ -6,6 +6,8 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  // Subtle gradient background for modern look
+  background: linear-gradient(180deg, var(--global-bg-color) 0%, rgba(255, 255, 255, 0.98) 100%);
 
   h1,
   h2,
@@ -15,6 +17,10 @@ body {
   h6 {
     scroll-margin-top: 66px;
   }
+}
+
+html[data-theme="dark"] body {
+  background: linear-gradient(180deg, var(--global-bg-color) 0%, rgba(28, 28, 29, 0.98) 100%);
 }
 
 body.fixed-top-nav {
@@ -31,12 +37,7 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
-// Profile
-.profile {
-  img {
-    width: 100%;
-  }
-}
+// Profile styling is in _base.scss
 
 // TODO: redefine content layout.
 

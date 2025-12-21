@@ -20,6 +20,11 @@ $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
 $purple-color: #b509ac !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
+// Modern theme colors
+$primary-color: #2563eb !default; // Modern blue
+$primary-color-dark: #1e40af !default;
+$accent-color: #06b6d4 !default; // Cyan accent
+$accent-color-light: color.adjust($accent-color, $lightness: 20%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
@@ -34,7 +39,7 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($primary-color, 0.08);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
