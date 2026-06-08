@@ -7,20 +7,19 @@ importance: 2
 category: work
 ---
 
-* Course: Machine Learning for Time Series led by Prof. Laurent Oudre 
+- Course: Machine Learning for Time Series led by Prof. Laurent Oudre
 
-- Code : [GitHub](https://github.com/mathias-grau/PyKSVD) 
-- Report : [PDF](https://drive.google.com/file/d/15XPjozYf9K4HwfK86bSZjujyPpiYFQFZ/view?usp=sharing)
-- Library : `pip install pyksvd` on [PyPi](https://pypi.org/project/pyksvd)
+* Code : [GitHub](https://github.com/mathias-grau/PyKSVD)
+* Report : [PDF](https://drive.google.com/file/d/15XPjozYf9K4HwfK86bSZjujyPpiYFQFZ/view?usp=sharing)
+* Library : `pip install pyksvd` on [PyPi](https://pypi.org/project/pyksvd)
 
 ## Project Overview
 
-PyKSVD is a Python implementation of the K-SVD algorithm based on paper *K-SVD: An Algorithm for Designing Overcomplete Dictionaries for Sparse Representation* (2006) by Michal Aharon, Michael Elad, and Alfred Bruckstein. 
-
+PyKSVD is a Python implementation of the K-SVD algorithm based on paper _K-SVD: An Algorithm for Designing Overcomplete Dictionaries for Sparse Representation_ (2006) by Michal Aharon, Michael Elad, and Alfred Bruckstein.
 
 ## Examples
 
-- Image processing : Denoise or complete a corrupted image with missing pixels with patches. 
+- Image processing : Denoise or complete a corrupted image with missing pixels with patches.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

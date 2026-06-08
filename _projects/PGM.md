@@ -7,13 +7,13 @@ importance: 3
 category: work
 ---
 
-* Course: [Introduction to Probabilistic Graphical Models and Deep Generative Models](https://lmbp.uca.fr/~latouche/mva/IntroductiontoProbabilisticGraphicalModelsMVA.html), led by Profs. Jean [Pierre Latouche](https://lmbp.uca.fr/~latouche) - [Pierre-Alexandre Mattei](https://pamattei.github.io) 
+- Course: [Introduction to Probabilistic Graphical Models and Deep Generative Models](https://lmbp.uca.fr/~latouche/mva/IntroductiontoProbabilisticGraphicalModelsMVA.html), led by Profs. Jean [Pierre Latouche](https://lmbp.uca.fr/~latouche) - [Pierre-Alexandre Mattei](https://pamattei.github.io)
 
 ## Project Overview
 
-This project focuses on the implementation of **Denoising Diffusion Probabilistic Models (DDPM)** as described in *Ho et al.* (2020). The goal was to implement the training and sampling processes of the DDPM model, optimizing it using **Hugging Face's Diffusers** library, and apply it to a new dataset of **impressionist paintings**. 
+This project focuses on the implementation of **Denoising Diffusion Probabilistic Models (DDPM)** as described in _Ho et al._ (2020). The goal was to implement the training and sampling processes of the DDPM model, optimizing it using **Hugging Face's Diffusers** library, and apply it to a new dataset of **impressionist paintings**.
 
-We successfully implemented the DDPM model as outlined in *Ho et al. (2020)*, which is one of the seminal works in the field of diffusion models. This paper laid the groundwork for many advancements, including improvements in sampling efficiency, conditioning, multi-task learning, and reducing the computational costs associated with diffusion models.
+We successfully implemented the DDPM model as outlined in _Ho et al. (2020)_, which is one of the seminal works in the field of diffusion models. This paper laid the groundwork for many advancements, including improvements in sampling efficiency, conditioning, multi-task learning, and reducing the computational costs associated with diffusion models.
 
 ### Training Data
 
@@ -53,7 +53,7 @@ The implementation follows the parameters from the article, with optimizations u
     Outputs generated
 </div>
 
-We also implemented new functions and classes that extend Hugging Face diffusion library to visualize the denoising process : 
+We also implemented new functions and classes that extend Hugging Face diffusion library to visualize the denoising process :
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -64,7 +64,7 @@ We also implemented new functions and classes that extend Hugging Face diffusion
     Outputs generated
 </div>
 
-We implemented the **Immiscible Diffusion** paper by *Yiheng Li et al.* to speed up the training process by assigning noise to the images based on the smallest distance between randomly generated noise and the training images in each batch.
+We implemented the **Immiscible Diffusion** paper by _Yiheng Li et al._ to speed up the training process by assigning noise to the images based on the smallest distance between randomly generated noise and the training images in each batch.
 
 Additionally, we developed a new diffusion class that allows for mixing two images to create a new one, starting from a blend of the noisy versions of the original images.
 
@@ -87,13 +87,13 @@ This project explores the theoretical underpinnings, practical advancements, and
 
 ```bibtex
 @misc{ho2020denoisingdiffusionprobabilisticmodels,
-      title={Denoising Diffusion Probabilistic Models}, 
+      title={Denoising Diffusion Probabilistic Models},
       author={Jonathan Ho and Ajay Jain and Pieter Abbeel},
       year={2020},
       eprint={2006.11239},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2006.11239}, 
+      url={https://arxiv.org/abs/2006.11239},
 }
 
 @misc{huggingfacecourse,
@@ -112,14 +112,13 @@ This project explores the theoretical underpinnings, practical advancements, and
 }
 
 @misc{li2024immisciblediffusionacceleratingdiffusion,
-      title={Immiscible Diffusion: Accelerating Diffusion Training with Noise Assignment}, 
+      title={Immiscible Diffusion: Accelerating Diffusion Training with Noise Assignment},
       author={Yiheng Li and Heyang Jiang and Akio Kodaira and Masayoshi Tomizuka and Kurt Keutzer and Chenfeng Xu},
       year={2024},
       eprint={2406.12303},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2406.12303}, 
+      url={https://arxiv.org/abs/2406.12303},
 }
 
 ```
-

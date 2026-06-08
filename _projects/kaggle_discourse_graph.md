@@ -8,9 +8,11 @@ category: work
 ---
 
 ### Description
+
 This project, led by Samuel Gaudin, Alexandre Ver Hulst and I at École Polytechnique part of INF554 course, focuses on identifying key messages in business dialogues using machine learning. By analyzing 137 labeled business dialogues, we explored various features—such as message size, speaker type, sentence embeddings, and sentiment scores—to determine message importance.
 
-Acces to report : 
+Acces to report :
+
 - [Report](https://drive.google.com/file/d/1GCnV0BeyAnpMD-6AO7kEpjh2x3wmT-N_/view?usp=sharing)
 - [Presentation](https://docs.google.com/presentation/d/18vy1SKKbggmyhUbXbB6B1u5zj-in9ekTb-XvCYqMJ0E/edit?usp=sharing)
 - [Repo](https://github.com/mathias-grau/kaggle_discourse_graph)
@@ -25,6 +27,7 @@ Acces to report :
 </div>
 
 ### Approach and Models
+
 We implemented a range of machine learning and deep learning models, including logistic regression, support vector machines (SVM), XGBoost, and advanced neural networks. Graph Neural Networks (GNN) and LSTM-based models were particularly effective, with LSTM proving best at capturing dialogue nuances.
 
 <div class="row justify-content-sm-center">
@@ -40,4 +43,5 @@ We implemented a range of machine learning and deep learning models, including l
 </div>
 
 ### Results
+
 The LSTM neural network model demonstrated superior performance in understanding professional dialogue, thanks to its ability to process sequential text.

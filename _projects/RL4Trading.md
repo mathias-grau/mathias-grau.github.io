@@ -9,19 +9,20 @@ category: work
 
 In this project, we implemented a Reinforcement Learning algorithm for financial data analysis.
 
-Acces to report : 
+Acces to report :
+
 - [Report](https://drive.google.com/file/d/1mU4c1jeIt4Psimh49YUeQnJWM70Czpcg/view?usp=sharing)
 - [Repo](https://github.com/mathias-grau/RL4Trading)
 
 ## Data Structure
 
-* We sourced our data from Yahoo Finance via their API, specifically focusing on the closing prices for our modeling purposes.
+- We sourced our data from Yahoo Finance via their API, specifically focusing on the closing prices for our modeling purposes.
 
 ## Model Architecture
 
 ### Environment
 
-* Our environment:
+- Our environment:
   - A dataframe containing stock price data,
   - A specified time range for action consideration,
   - A balance representing investable funds,
@@ -29,15 +30,14 @@ Acces to report :
 
 ### Actions
 
-* Our action space encompassed three distinct types:
+- Our action space encompassed three distinct types:
   1. Buying a certain proportion of stocks based on the model's confidence in a buy strategy.
   2. Selling a certain proportion of stocks based on the model's confidence in a sell strategy.
   3. Taking no action.
 
-
 ### Deep Q-Network (DQN)
 
-* Our DQN architecture was a blend of various layers, notably incorporating LSTM due to the sequential nature of trading data. Additionally, it considered other relevant factors such as the number of stocks held and the current account balance.
+- Our DQN architecture was a blend of various layers, notably incorporating LSTM due to the sequential nature of trading data. Additionally, it considered other relevant factors such as the number of stocks held and the current account balance.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">

@@ -9,7 +9,8 @@ category: work
 
 This project was conducted under the supervision of [Vincent Bansaye](http://www.cmap.polytechnique.fr/~bansaye) and [Maxime Breden](https://scholar.google.com/citations?user=2T2IU_sAAAAJ&hl=fr) from Polytechnique's [CMAP](https://cmap.ip-paris.fr).
 
-Acces to report : 
+Acces to report :
+
 - [Report](https://drive.google.com/file/d/1TvKZ-fQeibX1Sz-vXV7YbF1NBZH2b6We/view?usp=sharing)
 - [Repo](https://github.com/mathias-grau/pyspecies)
 - [PyPi](https://pypi.org/project/PySpecies)
@@ -47,10 +48,9 @@ Each individual remains at a site for a random period, determined by an exponent
     Evolution of the cross diffusion using the stochastic approach.
 </div>
 
-
 ## Deterministic implementation
 
-*SKT Model* proposed by Sheguesada, Kawazaki et Teramoto :
+_SKT Model_ proposed by Sheguesada, Kawazaki et Teramoto :
 
 $$
 \begin{cases}
@@ -70,6 +70,7 @@ r_{2} & b_{2} & a_{2}
 $$
 
 The prey-predator system of Lotka-Volterra is :
+
 $$
 \mathcal{D}:=\textbf{0}_{2\times3}\quad\text{et}\quad\mathcal{R}:=\begin{pmatrix}a & 0 & b\\
 -d & -c & 0
@@ -94,6 +95,5 @@ It can be shown, under certain conditions, that the semi-continuous model is the
         {% include figure.liquid loading="eager" path="assets/img/pyspecies/cos3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 
 The library is available at [PySpecies](https://pypi.org/project/PySpecies/)

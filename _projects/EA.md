@@ -9,15 +9,17 @@ category: work
 
 In this project, we implemented a Gaussian Processes and Kriging optimization based on Maximum Likelihood estimation of the parameters. We did it under the supervision of [Pr Thierry Klein](https://thierry-klein.fr)
 
-Acces to report : 
+Acces to report :
+
 - [Report](https://drive.google.com/file/d/1DGlt8UkWdQH5bS9JHw6bvIGN-q-N0Mgo/view?usp=drive_link)
 
 ## Abstract
 
 Gaussian processes are a fundamental tool in statistical learning with numerous applications, particularly in geostatistics. A Gaussian process is a stochastic process where any finite collection of random variables follows a multidimensional normal distribution, making it a powerful modeling tool.
 
-Kriging, named after D.G. Krige, is a spatial prediction method leveraging Gaussian processes to interpolate unknown functions. There are two primary forms:  
-- **Simple Kriging**: Assumes a constant, unknown mean.  
+Kriging, named after D.G. Krige, is a spatial prediction method leveraging Gaussian processes to interpolate unknown functions. There are two primary forms:
+
+- **Simple Kriging**: Assumes a constant, unknown mean.
 - **Universal Kriging**: Models the mean as a linear combination of known functions.
 
 These methods provide optimal, unbiased estimates of a variable of interest using observed data, enabling predictions and conditional simulations. Conditional simulation generates realizations consistent with observations, aiding spatial uncertainty assessment and function reconstruction from partial or noisy data.
@@ -35,7 +37,6 @@ The covariance function is central to the regularity and continuity of Gaussian 
     2D function kriging with 95% confidence intervals
 </div>
 
-
 ---
 
 ## Introduction
@@ -45,9 +46,10 @@ The covariance function is central to the regularity and continuity of Gaussian 
 Air pollution is a significant global health concern, causing nearly 6.7 million premature deaths annually (WHO). Understanding spatial air pollution levels within cities is vital, but large urban areas lack comprehensive measurement coverage.
 
 **Objective**: Estimate air pollution levels throughout a city.  
-**Approach**: Kriging offers an effective solution for spatial interpolation with the following steps:  
-1. Collect data from monitoring stations across the city.  
-2. Analyze pollution variability with distance to identify an appropriate distance-pollution correlation.  
+**Approach**: Kriging offers an effective solution for spatial interpolation with the following steps:
+
+1. Collect data from monitoring stations across the city.
+2. Analyze pollution variability with distance to identify an appropriate distance-pollution correlation.
 3. Use kriging for interpolation and incorporate uncertainties to estimate error margins across city points.
 
 ---
@@ -55,7 +57,6 @@ Air pollution is a significant global health concern, causing nearly 6.7 million
 This project highlights the implementation and exploration of Gaussian processes and kriging methods, emphasizing their practical application in geostatistical problems like urban air pollution mapping.
 
 You can paste this into your website, and the Markdown formatting will render it appropriately.
-
 
 ## Maximum Likelihood Estimation (MLE)
 
@@ -164,7 +165,6 @@ $$
 \Pi_{\theta} = R_{\theta}^{-1} - R_{\theta}^{-1} H(H^t R_{\theta}^{-1} H)^{-1} H^t R_{\theta}^{-1}.
 $$
 
-
 ## Important Example: The Matérn Kernel
 
 To illustrate the previous theorem, we will use the Matérn kernel, a covariance matrix ($$K$$) that serves as a foundational tool for our research. The Matérn kernel is defined as follows:
@@ -182,7 +182,6 @@ Where the parameters are defined as:
 
 The Matérn kernel is crucial for our work as it balances flexibility and smoothness, making it ideal for modeling processes with varying levels of regularity and correlation.
 
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/EA/simulated_gaussian_process_comparison.png" title="Plot of Kriging matern" class="img-fluid rounded z-depth-1" %}
@@ -192,11 +191,7 @@ The Matérn kernel is crucial for our work as it balances flexibility and smooth
     Comparison of kriging with the true Matérn kernel and the one obtained through maximum likelihood estimation.
 </div>
 
-
-
 For more informations, refer to our [Report](https://drive.google.com/file/d/1DGlt8UkWdQH5bS9JHw6bvIGN-q-N0Mgo/view?usp=drive_link).
-
-
 
 ```bibtex
 @misc{Ebden2008,

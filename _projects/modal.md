@@ -6,9 +6,11 @@ img: assets/img/modal/premierleague.png
 importance: 4
 category: work
 ---
+
 This project was conducted under the supervision of Professor [Gersende Fort](https://scholar.google.com/citations?user=NUoSZ24AAAAJ&hl=fr) from Polytechnique.
 
-Acces to report : 
+Acces to report :
+
 - [Report](https://drive.google.com/file/d/1v4GrWoHWm-h2UwqU7EgpygvaVmQWruQD/view?usp=sharing)
 
 ## Analysis of Rare Event Simulation in Sports Betting
@@ -47,7 +49,6 @@ Our first step was to implement a Monte Carlo simulation with 100,000 tournament
 
 To address the limitations of the Monte Carlo method for low-probability events, we implemented importance sampling. By adjusting the intrinsic values within the model to make a Leicester win more likely, we reduced the computational effort by a factor of 100, achieving an error margin of around 3% with far fewer simulations. We found that setting Leicester's strength near Chelsea’s (the top team) yielded the most stable error estimates, confirming that higher values improved our simulation's accuracy.
 
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/modal/noteopti.png" title="IS note" class="img-fluid rounded z-depth-1" %}
@@ -76,7 +77,6 @@ Our assumptions included treating teams as equal winners if they had identical s
 <div class="caption">
     Importance of the way winners are chosen 
 </div>
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

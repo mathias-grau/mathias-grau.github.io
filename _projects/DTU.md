@@ -7,10 +7,11 @@ importance: 1
 category: work
 ---
 
-* Location: [Technical University of Denmark (DTU)](https://www.dtu.dk/english)
-* Group: [Immunoinformatics and Machine Learning Group](https://orbit.dtu.dk/en/organisations/immunoinformatics-and-machine-learning), led by Prof. [Morten Nielsen](https://scholar.google.com/citations?user=ahkeJGgAAAAJ&hl=en)
+- Location: [Technical University of Denmark (DTU)](https://www.dtu.dk/english)
+- Group: [Immunoinformatics and Machine Learning Group](https://orbit.dtu.dk/en/organisations/immunoinformatics-and-machine-learning), led by Prof. [Morten Nielsen](https://scholar.google.com/citations?user=ahkeJGgAAAAJ&hl=en)
 
 ### Description
+
 This project is dedicated to advancing predictive models for binding interactions between T-cell receptors (TCRs) and peptides presented by Major Histocompatibility Complex (MHC) class I molecules, with applications in vaccine development, cancer immunotherapy, and autoimmune disease management.
 
 <div class="row">

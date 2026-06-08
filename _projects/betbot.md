@@ -10,7 +10,8 @@ category: fun
 As tennis is my passion for a long time now, I have created a betbot that is able to fetch data from websites and compute complex Deep Learning algorithms to predict the winner of future matches.
 Betbot for tennis match predictions based on `FlashResultat` statistics and `ATPtour` statistics.
 
-Acces to repository : 
+Acces to repository :
+
 - [BetBot](https://github.com/mathias-grau/betbot_tennis)
 
 ### Description
